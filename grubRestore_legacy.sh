@@ -1,5 +1,5 @@
-sudo manjaro-chroot -a
-sudo mount /dev/sda1 /mnt
+manjaro-chroot -a
+mount /dev/sda1 /mnt
 cd /mnt
 mount -t proc proc /mnt/proc
 mount -t sysfs sys /mnt/sys
