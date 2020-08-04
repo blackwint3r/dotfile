@@ -4,4 +4,4 @@ pacman -Syu linux54-headers virtualbox-guest-utils linux54-virtualbox-guest-modu
 modprobe vboxguest vboxvideo vboxsf
 systemctl enable --now vboxservice.service
 gpasswd -a $USER vboxsf
-xrandr -s 1920x1080 
+xrandr -s 1920x1080
